@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.lyq.entity.User;
-import com.lyqe.utils.JsonResult;
+import com.lyq.utils.JsonResult;
 
 @Controller
 @RequestMapping("/user")
