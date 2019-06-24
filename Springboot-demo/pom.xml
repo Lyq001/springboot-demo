@@ -54,12 +54,12 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
-		<!-- 去除Spring Boot的web-starter自带的tomcat
+		<!-- 引入Freemarker模板依赖 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
-		</dependency> -->
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+			<version>1.5.9.RELEASE</version>
+		</dependency>
 	</dependencies>
 
 	<build>
