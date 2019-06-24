@@ -54,12 +54,17 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
-		<!-- 引入Freemarker模板依赖 -->
+		<!-- 引入Freemarker模板依赖
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-freemarker</artifactId>
-			<version>1.5.9.RELEASE</version>
+		</dependency> -->
+		<!-- 导入thymeleaf页面模板依赖 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+		
 	</dependencies>
 
 	<build>
