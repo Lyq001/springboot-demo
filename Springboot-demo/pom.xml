@@ -12,6 +12,7 @@
 	<groupId>com.lyq</groupId>
 	<artifactId>Springboot-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>Springboot-demo</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -53,6 +54,12 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
+		<!-- 去除Spring Boot的web-starter自带的tomcat
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency> -->
 	</dependencies>
 
 	<build>
